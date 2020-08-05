@@ -1,0 +1,207 @@
+{
+    "token": "NzM4Njg5MTQ3MzYzMDAwNDA0.XyPj4A.O2I0Oc3FjPzViuwCJuurF7xlhwM",
+    "prefix": "xx",
+    "mutedRoleId": 705510721068466187,
+    "guildId": 687468686294253568,
+    "welcomeMessageChannelId": 721919378995544106,
+    "welcomeMessage": ["◆ Information ◆", ":crescent_moon: Server » Gloam", ":link: Invite » https://discord.gg/gloam"],
+    "logging": {
+        "punishmentChannel": 721919378995544106,
+        "generalChannel": 721919378995544106
+    },
+    "embed": {
+        "successColor": "#7CFC00",
+        "standardColor": "#261554",
+        "warningColor": "#ff0000"
+    },
+    "permissions": {
+        "help": [],
+        "ping": [
+            "Head Admin",
+            "Manager",
+            "Admin"
+        ],
+        "status": [],
+        "lock": [
+            "Head Admin",
+            "Manager",
+            "Admin",
+            "Sr. Moderator"
+        ],
+        "unlock": [
+            "Head Admin",
+            "Manager",
+            "Admin",
+            "Sr. Moderator"
+        ],
+        "purge": [
+            "Head Admin",
+            "Manager",
+            "Admin",
+            "Sr. Moderator"
+        ],
+        "ban": [
+            "Head Admin",
+            "Manager",
+            "Admin",
+            "Sr. Moderator"
+        ],
+        "kick": [
+            "Head Admin",
+            "Manager",
+            "Admin",
+            "Sr. Moderator",
+            "Moderator"
+        ],
+        "mute": [
+            "Head Admin",
+            "Manager",
+            "Admin",
+            "Sr. Moderator",
+            "Moderator",
+            "Trial Moderator"
+        ],
+        "unban": [
+            "Head Admin",
+            "Manager",
+            "Admin",
+            "Sr. Moderator"
+        ],
+        "warn": [
+            "Head Admin",
+            "Manager",
+            "Admin",
+            "Sr. Moderator",
+            "Moderator",
+            "Trial Moderator"
+        ],
+        "new": [],
+        "leader": [
+            "Head Admin",
+            "Manager",
+            "Admin",
+            "Sr. Moderator",
+            "Moderator",
+            "Trial Moderator"
+        ],
+        "close": [],
+        "suggest": [],
+        "saccept": [],
+        "sdeny": [],
+        "post": [],
+        "apply": [],
+        "accept": [],
+        "deny": [],
+        "unmute": []
+    },
+    "staffRoleId": "737764722459279473",
+    "tickets": {
+        "category": 738609142436069416,
+        "closedTicketChannel": 738609274493730857,
+        "types": [{
+                "name": "Mute Appeal",
+                "questions": [
+                    "Why were you muted?",
+                    "How long were you muted for?",
+                    "Why should you be unmuted?"
+                ],
+                "adminOnly": false
+            },
+            {
+                "name": "Member Report",
+                "questions": [
+                    "Please provide us with the name of the member you are reporting!",
+                    "What are you reporting them for?",
+                    "Please provide any proof you have of them breaking rules!"
+                ],
+                "adminOnly": false
+            },
+            {
+                "name": "Staff Report",
+                "questions": [
+                    "Please provide us with the name of the staff member!",
+                    "What do you believe have they done wrong?",
+                    "Please provide any proof you have of them breaking the rules!"
+                ],
+                "adminOnly": true
+            },
+            {
+                "name": "Permission Error Report",
+                "questions": [
+                    "What is the permission error?",
+                    "Please provide any proof you have of this error!"
+                ],
+                "adminOnly": false
+            },
+            {
+                "name": "Other",
+                "questions": [
+                    "Please tell us whats wrong!"
+                ],
+                "adminOnly": false
+            }
+        ]
+    },
+        "suggestions": {
+            "category": 738578746725892178,
+            "openChannel": 738584197471666227,
+            "acceptedChannel": 738581902734393374,
+            "deniedChannel": 721919378995544106,
+            "types": [
+                {
+                    "name": "Discord",
+                    "questions": [
+                        "What is your suggestion?",
+                        "What benefit will this have to Gloam?"
+                    ]
+                },
+                {
+                    "name": "Merch/Gloam Branding",
+                    "questions": [
+                        "what is your suggestion?",
+                        "What benefit will this have to Gloam?"
+                    ]
+                },
+                {
+                    "name": "Other",
+                    "questions": [
+                        "what is your suggestion?",
+                        "What benefit will this have to Gloam?"
+                    ]
+                }
+            ]
+        },
+        "applications": {
+            "category": 738643022404911185,
+            "types": [
+                {
+                    "name": "Staff Application",
+                    "questions": [
+                        "Discord Tag",
+                        "How old are you?",
+                        "What timezone are you in?",
+                        "Why are you applying for staff in Gloam?",
+                        "How many hours can you provide a week?",
+                        "Do you have any warns/bans/kicks/mutes?",
+                        "What level are you in Gloam? (type !rank in the bot channel to find out.)",
+                        "How long have you been a member in Gloam?",
+                        "Tell us about yourself :)"
+                    ],
+                    "access": ["Staff"]
+                },
+                {
+                    "name": "Content Creator Application",
+                    "questions": [
+                        "Discord Tag",
+                        "How old are you?",
+                        "Where do you make your content?",
+                        "How many subscribers/followers do you have?",
+                        "How long have you been a member in Gloam?",
+                        "Tell us about yourself!"
+
+                    ],
+                    "access": ["Staff"]
+                }
+            ]
+        }
+    }
